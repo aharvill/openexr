@@ -68,3 +68,43 @@ INSTALL ( TARGETS imathmodule
 	DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages
 )
 
+INSTALL ( FILES
+  PyImath.h 
+  PyImathAutovectorize.h 
+  PyImathBoxArrayImpl.h 
+  PyImathBox.h 
+  PyImathColor3ArrayImpl.h 
+  PyImathColor4Array2DImpl.h 
+  PyImathColor4ArrayImpl.h 
+  PyImathColor.h 
+  PyImathDecorators.h 
+  PyImathEuler.h 
+  PyImathExport.h 
+  PyImathFixedArray2D.h 
+  PyImathFixedArray.h 
+  PyImathFixedMatrix.h 
+  PyImathFrustum.h 
+  PyImathLine.h 
+  PyImathMathExc.h 
+  PyImathMatrix.h 
+  PyImathOperators.h 
+  PyImathPlane.h 
+  PyImathQuat.h 
+  PyImathRandom.h 
+  PyImathShear.h 
+  PyImathStringArray.h 
+  PyImathStringArrayRegister.h 
+  PyImathStringTable.h 
+  PyImathTask.h 
+  PyImathUtil.h 
+  PyImathFixedVArray.h 
+  PyImathVec2Impl.h 
+  PyImathVec3ArrayImpl.h 
+  PyImathVec3Impl.h 
+  PyImathVec4ArrayImpl.h 
+  PyImathVec4Impl.h 
+  PyImathVec.h 
+  PyImathVecOperators.h
+  DESTINATION
+  include/OpenEXR
+)

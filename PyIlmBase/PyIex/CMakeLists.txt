@@ -30,3 +30,10 @@ INSTALL ( TARGETS iexmodule
 	DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages
 )
 
+INSTALL ( FILES 
+  PyIex.h
+  PyIexExport.h
+  PyIexTypeTranslator.h
+  DESTINATION
+  include/OpenEXR
+)
